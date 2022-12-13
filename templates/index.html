@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<style>
+    form {
+        margin: auto;
+        width: 35%;
+        border: 1px solid #ccc;
+        background-color: yellowgreen;
+    }
+</style>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Прогнозирование соотношения матрица-наполнитель</title>
+</head>
+<body>
+
+    {% if message %}
+        <p>{{ message }}</p>
+    {% endif %}
+
+    <form action = "" method="post">
+        <p>
+            <label for="mat">Material</label>
+            <input type="text" name="mat">
+        </p>
+    <p>
+        <input type="submit">
+    </p>
+    </form>
+</body>
+</html>
